@@ -1,4 +1,4 @@
-## EcoMug is the tool to produce muons which mimics the cosmic ray muons. Here is the code for plane based generation of cosmic ray muons.
+EcoMug is the tool to produce muons which mimics the cosmic ray muons. Here is the code for plane based generation of cosmic ray muons.
 
 ```bash
 #include <iostream>
@@ -77,8 +77,8 @@ int main() {
 }
 ```
 
-##Here the data for 1,00,000 muons is recorded in csv file. Later on the momentum distribution, theta distribution and phi distribution is made using python. In the momentum distribution graph it can be seen that most of the particles having the momentum between 1GeV/c to 5GeV/c are being produced. Which is comparable with the observed muon energy 3GeV. Theta and Phi distribution are the angualar distribution of the cosmic ray muons.
+Here the data for 1,00,000 muons is recorded in csv file. Later on the momentum distribution, theta distribution and phi distribution is made using python. In the momentum distribution graph it can be seen that most of the particles having the momentum between 1GeV/c to 5GeV/c are being produced. Which is comparable with the observed muon energy 3GeV. Theta and Phi distribution are the angualar distribution of the cosmic ray muons.
 
 
-##EcoMug reference - 
+EcoMug reference - 
    https://www.bing.com/ck/a?!&&p=0c5c4bb690f8fe415ce3bd6dd0e57e4fe437bf6993d4af051e487d050f0c231fJmltdHM9MTc2NDI4ODAwMA&ptn=3&ver=2&hsh=4&fclid=195e9c6f-e4c2-684f-0e45-88b8e5bd6932&psq=ecomug+cosmic+ray+muon+generator&u=a1aHR0cHM6Ly93d3cuc2NpZW5jZWRpcmVjdC5jb20vc2NpZW5jZS9hcnRpY2xlL3BpaS9TMDE2ODkwMDIyMTAwNzE3OA
