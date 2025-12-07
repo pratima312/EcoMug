@@ -77,7 +77,7 @@ int main() {
 }
 ```
 
-Here the data for 1,00,000 muons is recorded in csv file. Later on the momentum distribution, theta distribution and phi distribution is made using python. In the momentum distribution graph it can be seen that most of the particles having the momentum between 1GeV/c to 5GeV/c are being produced. Which is comparable with the observed muon energy 3GeV. Theta and Phi distribution are the angualar distribution of the cosmic ray muons.
+Here the data for 1,00,000 muons is recorded in csv file. Later on the momentum distribution, theta distribution and phi distribution is made using python. In the momentum distribution graph, it can be seen that most of the particles having the momentum between 1GeV/c to 5GeV/c are being produced. Which is comparable with the observed muon energy 3GeV. Theta and Phi distribution are the angualar distribution of the cosmic ray muons.
 
 
 EcoMug reference - 
