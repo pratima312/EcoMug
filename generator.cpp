@@ -36,8 +36,33 @@ int main() {
 
     EcoMug gen;
     gen.SetUseSky();
-    gen.SetSkySize({{10., 10.}});
-    gen.SetSkyCenterPosition({{0., 0., 20.}});
+    gen.SetSkySize({{0.5, 0.5}});
+    gen.SetSkyCenterPosition({{0., 0., 0.5}});
+
+    // // Cylindrical generation
+    // EcoMug gen; // initialization of the class
+    // gen.SetUseCylinder(); // cylindrical surface generation
+    // gen.SetCylinderRadius(0.15); // cylinder radius
+    // gen.SetCylinderHeight(0.4); // cylinder height
+    // // (x,y,z) position of the center of the cylinder
+    // gen.SetCylinderCenterPosition({{0., 0., 0.1}});
+
+
+    // // Half-spherical generation
+    // EcoMug gen; // initialization of the class
+    // gen.SetUseHSphere(); // half-spherical surface generation
+    // gen.SetHSphereRadius(0.4); // half-sphere radius
+    // // (x,y,z) position of the center of the half-sphere
+    // gen.SetHSphereCenterPosition({{0., 0., 0.3}});
+
+
+    // //Constraints on generated muons
+    // gen.SetMinimumMomentum(00.);
+    // gen.SetMaximumMomentum(00.);
+    // gen.SetMinimumTheta(0.);
+    // gen.SetMaximumTheta(M_PI/4);
+    // gen.SetMinimumPhi(0.);
+    // gen.SetMaximumPhi(M_PI);
 
     std::array<double, 3> muon_position;
 
